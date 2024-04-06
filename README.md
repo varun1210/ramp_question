@@ -1,9 +1,9 @@
-Solution to Ramp Challenge. 
+My solution to Ramp Challenge. 
 
 Question: 
 /* Using this dataset, show the SQL query to find the rolling 3 day average transaction amount for each day in January 2021. */
 
-CREATE TABLE transactions (
+`CREATE TABLE transactions (
   "transaction_time" TIMESTAMP,
   "transaction_amount" FLOAT
 );
@@ -124,4 +124,4 @@ VALUES
   ('2021-01-01 02:01:09.000000', '518.20'),
   ('2021-01-15 20:55:58.000000', '47.72'),
   ('2021-01-02 00:09:43.000000', '49.00'),
-  ('2021-01-08 00:49:22.000000', '31.61');
+  ('2021-01-08 00:49:22.000000', '31.61');`
